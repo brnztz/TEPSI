@@ -1,1 +1,2 @@
 .\.venv\Scripts\activate
+docker stop $(docker ps -a -q)
